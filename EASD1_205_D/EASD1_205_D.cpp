@@ -1,10 +1,11 @@
+/**
 1. Karena algoritma dibutuhkan untuk menyelesaikan masalah secara sistematis
 2. Statis & Dinamis
 3. membuat codingan yang tidak diperlukan
 4. Menurut saya Insertion sort karena membandingkan dan memindahkan elemen ke posisi yang tepat didalam susunan data yang sudah diurutkan
 5. Quadratic : Bubble Sort, Selection Sort, dan Insertion Sort
-Loglinear : Merge Sort dan Quick Sort
-6. Selection sort :
+	Loglinear : Merge Sort dan Quick Sort
+6. Selection sort:
 **/
 #include<iostream>
 using namespace std;
@@ -22,7 +23,7 @@ void input() {
 }
 
 void selectionsort() {
-	for (int ZA = 0; ZA < n; ZA++) {
+	for (int ZA = 0;  < n; ZA++) {
 		int min_index = ZA;
 		for (int i = ZA + 1; i < n; i++) {
 			if (zikir[i] < zikir[min_index]) {
@@ -50,4 +51,4 @@ int main() {
 
 	input();
 	selectionsort();
-	display();
+	display()
